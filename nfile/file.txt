@@ -1,3 +1,0 @@
-  I love python  
-  I love Java   
-Hello in python
