@@ -63,7 +63,7 @@ http://WWW.pythex.com
 Regualr expersion in python use re
 -------------
 search(reglar,sting)  return string for a match and return only first string match
-findall()  return list of all string which match and return empty list for no match
+findall(pattern,string)  return list of all string which match and return empty list for no match
 """
 
 import re
@@ -80,15 +80,29 @@ import re
 # print(my_re.span()[0])  # index which match
 # print(my_re.string[my_re.span()[0]:my_re.span()[1]])  # string of index which match
 
-email="Muhmmed.Ashraf96@gemkd.org"
-my_email_paatern=r'^[a-zA-Z0-9\.]+@[a-z0-9]+\.(com|org|net)$'
-is_email=re.findall(r'^[a-zA-Z0-9\.]+@[a-z0-9]+\.(com|org|net)$',email)
+email=input('Enter email as : muh.ashraf96@gmail.com: ')
+my_email_pattern=r'^[a-zA-Z0-9\.]+@[a-z0-9]+\.(com|org|net)$'
 
-is_match = re.match(my_email_paatern,email)
-print(f'is match {is_match}')
-if is_match:
+is_email_findall=re.findall(my_email_pattern,email)
+print(f'is match findall {is_email_findall}')
+if is_email_findall:
     print(f'This {email} is valid ')
 else:
-    print('This email is not valid')    
+    print(f'This {email} is not valid')    
 
-    
+
+is_email_match = re.match(my_email_pattern,email)
+print(f'is email match {is_email_match}')
+if is_email_match:
+    print(f'This {email} is valid ')
+else:
+    print(f'This {email} is not valid')    
+
+is_email_search = re.search(my_email_pattern,email)
+print(f'is email search {is_email_search}')
+if is_email_search:
+    print(f'This {email} is valid ')
+else:
+    print(f'This {email} is not valid')    
+
+re.fullmatch    
