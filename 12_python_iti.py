@@ -1,7 +1,7 @@
 '''
 Learn:
     - sum() , round() ,range()
-    - change pritn output 
+    - change print output 
     - abs() , pow() , min() , max() , slice()
 '''
 
