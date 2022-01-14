@@ -62,14 +62,15 @@ or OR Logic Gate means True if and only if one or more sides is True
 not Not Logic Gate means reserve output form True to False and so
 '''
 # Very Important 1 is equal True and 0 is equal False
-print(True==1) 
-print(False==0) 
+print("True==1 ",True==1) 
+print("False==0 ",False==0) 
 # but any numbers not 1 or 0 not equal True of False
-print(True==2) 
+print("True==2 ",True==2) 
 
-print(True=="True") # means if True equal "True"  
-print("True"=="True") 
-print(not(True==2)) # beacause True is 1 
+print('True=="True" ', True=="True") # means if True equal "True"  
+print('"True"=="True" ',"True"=="True") 
+print(f'"True" is "True" {"True" is "True"}') 
+print("not(True==2) ",not(True==2)) # beacause True is 1 
 
 
 # Very Impoertant any value of this is evaluate to False
