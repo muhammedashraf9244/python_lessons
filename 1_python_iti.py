@@ -1,4 +1,4 @@
-#! python 
+#!/usr/bin/python3.8
 '''
 Learn:
     - how print statments 
