@@ -24,7 +24,7 @@ this is multi line comment but this is value of string but not assign to variabl
 this use for multi line comment
 '''
 
-# DatType in Python and TypeConvention  
+# DataType in Python and TypeConvention  
 ''' 
 int() for Integer
 float() for Float and double 
@@ -41,9 +41,9 @@ NoneType as Null in Other PL use None as x=None
 # rules for writing identifier of variable
 '''
 Starts only with: a-z or A-Z or _
-Can’t Contain : Punctuations Characters
+Can't Contain : Punctuations Characters
 Can Contain: digits but not in start 
-A Python identifier doesn’t be one of reserved word
+A Python identifier doesn't be one of reserved word
 ''' 
 a_int=10
 b_float=12.5
