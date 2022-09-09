@@ -29,7 +29,7 @@ No use ; or {}
 / Division Op 16 / 5 #output: 3.2
 % Modulus Op 16 % 5 #output: 1
 // Division without Fractions 16 // 5 #output: 3
-** Exponent Op 2**4 = 16 
+** Exponentiation Op 2**4 = 16 
 = assignment Op a=b means get value of b and store in a this s not eqaul
 ++x postfix 
 x++ prefix

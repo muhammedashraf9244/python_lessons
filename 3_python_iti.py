@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Learn:
     - Mutable and Immutable in python
@@ -38,9 +39,12 @@ rstrip() remove spaces from rigth
 lstrip() remove spaces from left  
 find(sub, start=0, end=-1) return start index of sub if found in string else return -1 
 index(sub, start=0, end=-1) reurtn start index of sub if found in string else give error 
+
 '''
-my_str="  I am pythonist  "
+my_str="  I am pythonist 'DfffE'  "
 print(my_str.find('amn'))
+my_str = my_str.swapcase()
+print("swapcase %s" %(my_str))
 # print(my_str.index('amn')) # error 
 print(my_str.strip())
 print(my_str.rstrip())
@@ -81,8 +85,7 @@ if Keepends True return \n with line
 my_multiline_str="""
 Line 1
 Line 2 
-Line 3
-"""
+Line 3"""
 my_str="Line1\nLine2"
 print(my_multiline_str.splitlines(True))
 print(my_str.splitlines(True))
