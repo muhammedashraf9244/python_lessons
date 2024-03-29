@@ -2,10 +2,10 @@
 '''
 Learn:
     - what is shebang line
-    - how print statments 
+    - how print statements
     - how make comment and multi line comment
     - data type in python and TypeConvention
-    - multi line assignment 
+    - multi line assignment
 '''
 """
 In many .py files we may see the shebang line on the top of the script.
